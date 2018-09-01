@@ -1,5 +1,5 @@
 class RolsController < ApplicationController
-    def index.htnk
+    def index
       @rols = Rol.all
       render json: @rols, status: :ok
     end
